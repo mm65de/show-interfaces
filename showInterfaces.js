@@ -109,8 +109,8 @@ function renderHtml(interfaces) {
     return html;
 }
 
-var express = require("express"); // See https://expressjs.com/
-var app = express();
+const express = require("express"); // See https://expressjs.com/
+const app = express();
 
 app.get("/", (req, res, next) => {
     res.send(renderHtml(interfaces));
