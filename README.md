@@ -21,7 +21,7 @@ This site should show your host name as title.
 Below you should see a list of the network interfaces available on this machine together with additional information.
 You can stop the web server by the command `kill -9 <pid>` where <pid> is the process id reported on startup.
 
-## Create your local docker image and run it as a container
+## Create your local docker image and run two containers based on it
 If you have a local installation of docker and docker compose, you can execute this command:
 `docker compose up -d`
 This command start builds a docker image according to the definitions given by the file 'Dockerfile'.
