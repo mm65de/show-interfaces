@@ -42,5 +42,19 @@ Here is an example of what the two web servers can show:
 You stop the two containers and remove them by the command `docker compose down`.
 
 ## Run the container uploaded to GitHub
-...
+
+Execute the command `docker pull mm65de/show-interfaces-app:1.1` to download the image.
+Then start one or more containers based on this image:
+    
+    sd run -d -p 3001:3000 mm65de/show-interfaces-app:1.1
+    sd run -d -p 3002:3000 mm65de/show-interfaces-app:1.1
+    sd run -d -p 3003:3000 mm65de/show-interfaces-app:1.1
+    ...
+
+Every line starts a new web server. You can access them via the ports 3001 and following.   
+Via `docker ps` you can list the running containers together with their Container ID.
+Via `docker rm -f <containerID1>  <containerID2>  <containerID3> ` you can stop and remove the containers again.
+    
+    
+
 
