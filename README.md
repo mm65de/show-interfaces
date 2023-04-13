@@ -51,7 +51,7 @@ Then start one or more containers based on this image:
     sd run -d -p 3003:3000 mm65de/show-interfaces-app:1.1
     ...
 
-Every line starts a new web server. You can access them via the ports 3001 and following.   
+Every line starts a new web server. You can access them via the ports 3001 and following (i.e. http://localhost:3001/, http://localhost:3002/, ...).
 Via `docker ps` you can list the running containers together with their Container ID.
 Via `docker rm -f <containerID1>  <containerID2>  <containerID3> ` you can stop and remove the containers again.
     
