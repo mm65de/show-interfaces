@@ -39,6 +39,8 @@ Here is an example of what the two web servers can show:
 
 ![Screenshot of two web servers](doc/twoServers.png)
 
+You stop the two containers and remove them by the command `docker compose down`.
+
 ## Run the container uploaded to GitHub
 ...
 
