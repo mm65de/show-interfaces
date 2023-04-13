@@ -1,0 +1,12 @@
+services:
+    app:
+        build: .
+        deploy: 
+            replicas: 2
+        ports:
+            - 3000    
+networks:
+    hostnet:
+        external: true
+        name: host
+
