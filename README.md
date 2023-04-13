@@ -11,7 +11,8 @@ After cloning this repo you have several possibilities to run it. These are desc
 
 Execute the following commands on the command line when this folder is your current working folder:
 
-`...`
+`npm install`
+`node showInterfaces.js`
 
 ## Create your local docker image and run it as a container
 ...
