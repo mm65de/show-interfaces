@@ -41,7 +41,7 @@ Here is an example of what the two web servers can show:
 
 You stop the two containers and remove them by the command `docker compose down`.
 
-## Run the container uploaded to GitHub
+## Run the image uploaded to GitHub
 
 Execute the command `docker pull mm65de/show-interfaces-app:1.1` to download the image.
 Then start one or more containers based on this image:
