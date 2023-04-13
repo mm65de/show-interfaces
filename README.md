@@ -35,6 +35,9 @@ This means that you now should be able to access both, http://localhost:32770/ a
 Both pages should show the available networks.
 The local ip addresses of the two web servers should be different, but belonging to the same subnet.
 
+Here is an example of what the two web servers can show:
+
+![Screenshot of two web servers](doc/twoServers.png)
 
 ## Run the container uploaded to GitHub
 ...
