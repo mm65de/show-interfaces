@@ -5,5 +5,10 @@
   "description": "Web app that shows the network interfaces as an html table.",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mm65de/show-interfaces.git"
+  },
+  "license": "CC0-1.0"
 }
